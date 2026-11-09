@@ -1,1 +1,11 @@
-
+{
+  "isTestMode": true,
+  "adsEnabled": true,
+  "bannerEnabled": true,
+  "interstitialEnabled": true,
+  "rewardedEnabled": true,
+  "rewardedInterstitialEnabled": true,
+  "appOpenEnabled": true,
+  "baseReward": 1,
+  "rewardMultipliers": [0.5, 1.0, 1.5, 2.0, 2.5]
+}
