@@ -36,7 +36,7 @@
 
 <h2>2. Our Core Privacy Principle</h2>
 <p>TVHub does not require an account, a login or a sign-up. We do not operate a server that stores your personal content. The playlists, links, favorites, watch history, resume positions and settings that you create inside the app are saved only in the app's private local storage (a Hive database) on your device. We cannot see them, and they are never uploaded to us.</p>
-<p>Information leaves your device only in these cases: when you play a stream or video from a server you chose, when advertisements are loaded through Google AdMob, when you send a message through the Contact Us form, and when the app downloads small configuration files from our hosting. Each case is explained below.</p>
+<p>Information leaves your device only in these cases: when you play a stream or video from a server you chose, when advertisements are loaded through Google AdMob, when you send a message through the Contact Us form, when the app downloads the lists of channels, movies and videos from Google Firebase, and when it downloads small configuration files from our hosting. Each case is explained below.</p>
 
 <h2>3. Information Processed by Each Feature</h2>
 <ul>
@@ -46,6 +46,7 @@
   <li><strong>Local Video Files</strong> – If you choose a video file from your device, it is played on your device. The app reads only the file you choose, and the file is never uploaded.</li>
   <li><strong>Player, Theme and Font Settings</strong> – Your preferences, such as playback speed, video fit, theme and font, are saved locally on your device.</li>
   <li><strong>App Configuration and Updates</strong> – When the app starts or reconnects to the internet, it downloads small configuration files, such as advertisement settings and update information, from our hosting on GitHub Pages, and it may load the Terms and Privacy pages from there. Like any web request, this lets the host see your IP address and basic request information. These requests do not contain your playlists, history or other personal content.</li>
+  <li><strong>Channel, Movie and Video Lists</strong> – When the app opens, it connects to Google Firebase Realtime Database to download the lists of links shown in the app, including playlist links that we manage. A copy is saved on your device so the app loads faster and still works with a weak connection. As with any online service, the connection lets Google see your IP address and basic device and app information. No playlist, favorite, history or other personal data is sent. Firebase privacy information: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
   <li><strong>Connectivity Check</strong> – To know whether you are online, the app checks your device's network status and may make a lightweight connection test to public internet servers.</li>
 </ul>
 
@@ -71,6 +72,7 @@
 <p>This data is collected by Google, not by us, and is governed by Google's own privacy practices: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
 <p>You can review or withdraw your ad personalization consent at any time using the "Manage Ad Privacy Choices" button on this screen.</p>
 <p>The app also uses Google Play In-App Review to optionally ask for a rating, and Google Fonts to load typefaces.</p>
+<p>YouTube videos are played with the YouTube embedded player, which is provided by Google. When you open a YouTube video, YouTube may collect information such as your IP address and viewing activity under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, and by watching YouTube content through TVHub you also agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. We use the privacy-enhanced mode of the player where it is available.</p>
 
 <h2>7. Third-Party Streams and Content Providers</h2>
 <p>The streams, channels, movies and videos you play with TVHub are provided by third parties that we do not own or control. When you open their content, their servers, players and websites may collect information about you, such as your IP address, and their own privacy policies apply. We are not responsible for their practices, so please review them if you have concerns, and play content only from sources you trust.</p>
